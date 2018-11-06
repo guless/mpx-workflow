@@ -1,6 +1,6 @@
 {
     "name": "mpx-workflow",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "scripts": {
         "watch": "npm run build -- --watch --env.mode=development",
         "build": "Webpack --config=./toolkit/webpack.config.js --progress --env.mode=production",
@@ -32,7 +32,7 @@
         "gs-events": "^1.0.11",
         "html-loader": "^0.5.5",
         "mkdirp": "^0.5.1",
-        "mpx-webpack-plugin": "^1.0.9",
+        "mpx-webpack-plugin": "^1.0.10",
         "node-fetch": "^2.1.2",
         "node-sass": "^4.9.1",
         "postcss-loader": "^2.1.5",
